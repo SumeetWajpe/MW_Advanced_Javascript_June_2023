@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      // IIFE - Immediately invocable function expression !
+      //   (function (msg) {
+      //     console.log(msg);
+      //   })("IIFE executed !");
+
+      //   var result = (function (x, y) {
+      //     return x + y;
+      //   })(20, 30);
+
+      var MathModule = (function () {
+        function Add(x, y) {
+          return x + y;
+        }
+
+        function Multiply(x, y) {
+          return x * y;
+        }
+        return { Add: Add };
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
