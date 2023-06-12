@@ -22,9 +22,12 @@
           );
         },
       };
-      var player = person;
-      player.country = "SRB";
-      person.getDetails();
+      //   var player = person;
+      //   player.country = "SRB";
+      //   person.getDetails();
+
+      var JSONData = JSON.stringify(person); // Converts Js object to JSON
+      var jSObject = JSON.parse(JSONData); // COnverts JSON to js object
     </script>
   </head>
   <body></body>
