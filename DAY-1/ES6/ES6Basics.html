@@ -26,8 +26,23 @@
       //   const PI;
       //   PI = 3.14; // Error
 
-      const PI = 3.14;
+      //   const PI = 3.14;
       //   PI = 3.14534;// Error !
+
+      //   const player = { name: "Nadal" };
+      //   player.name = "Rafael Nadal";// allowed
+      //   player = {};// Error
+      //   player.country = "Spain";
+
+      // Spread Operator
+      // With Arrays
+      let cars = ["BMW", "AUDI", "Aston Martin"];
+      let moreCars = ["TATA", "MAHINDRA"];
+      let allCars = [...cars, ...moreCars, "Merc"];
+
+      // With Objects
+      let person = { name: "Andy Murray", nationality: "Scottish" };
+      let player = { age: 36, nationality: "British", ...person };
     </script>
   </head>
   <body></body>
