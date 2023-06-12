@@ -15,6 +15,24 @@
       var NestedFunc = Test();
       // after 100 lines
       NestedFunc();
+
+      function Counter() {
+        var count = 0;
+        return function () {
+          count++;
+          console.log(count);
+        };
+      }
+
+      var CurrCounter = Counter();
+      CurrCounter();
+      CurrCounter();
+      CurrCounter();
+      CurrCounter();
+      CurrCounter();
+      // 100 lines
+      CurrCounter();
+
     </script>
   </head>
   <body></body>
