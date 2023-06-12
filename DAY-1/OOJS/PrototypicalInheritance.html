@@ -23,11 +23,29 @@
 
       var carObj = new Car("AUDI", 200);
 
-      function JamesBondCar() {}
+      function JamesBondCar(name, speed, isArmed) {
+        this.isArmed = false;
+        JamesBondCar.prototype.name = name;
+        JamesBondCar.prototype.speed = speed;
+      }
 
       JamesBondCar.prototype = new Car(); // sets the prototype to be a new Car instance instead of new Object()
-      var jbc = new JamesBondCar();
+      var jbc = new JamesBondCar("Aston Martin", 300, true);
       console.log(jbc.name);
+
+      Date.prototype.getDayName = function () {
+        switch (this.getDay()) {
+          case 1:
+            return "Monday";
+          case 2:
+            return "Tuesday";
+          default:
+            break;
+        }
+      };
+
+      var date = new Date();
+      console.log(date.getDayName());
     </script>
   </head>
   <body></body>
