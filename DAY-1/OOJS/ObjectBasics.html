@@ -39,13 +39,24 @@
 
       // 3. Custom Constructor - Function
 
-      function Car() {
-        this.name = "BMW";
-        this.speed = 200;
+      function Car(name, speed) {
+        this.name = name || "BMW";
+        this.speed = speed || 200;
+        this.accelerate = function () {
+          console.log(
+            "The car " + this.name + " is running at " + this.speed + " kmph !",
+          );
+        };
       }
 
-      var carObj = new Car();
-      console.log(carObj.name);
+      var carObj = new Car("AUDI", 200);
+      var carObj2 = new Car("MERC", 300);
+      //   console.log(carObj.name);
+      carObj2.accelerate();
+
+      //   Car();
+
+      var date = new Date();
     </script>
   </head>
   <body></body>
