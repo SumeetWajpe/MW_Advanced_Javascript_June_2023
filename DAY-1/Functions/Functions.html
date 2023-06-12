@@ -7,19 +7,21 @@
     <title>Document</title>
     <script>
       //1. Using Function Declaration
-
-      //   function PrintBook(author, title) {
-      //     return "The book " + title + " is written by " + author;
-      //   }
-      //   var msg = PrintBook("Dr. APJ Abdul Kalam", "Wings Of Fire");
+    //   function PrintBook(author, title) {
+    //     return "The book " + title + " is written by " + author;
+    //   }
+    //   var msg = PrintBook("Dr. APJ Abdul Kalam", "Wings Of Fire");
 
       // 2. Function as an expression
-      var PrintBook = function (author, title) {
-        author = author || "Unknown";
-        title = title || "Unknown";
-        return "The book " + title + " is written by " + author;
-      };
+      //   var PrintBook = function (author, title) {
+      //     author = author || "Unknown";
+      //     title = title || "Unknown";
+      //     return "The book " + title + " is written by " + author;
+      //   };
       //   var msg = PrintBook("Dr. APJ Abdul Kalam", "Wings Of Fire");
+
+      //3. Using Function Constructor
+      //   var PrintBook = new Function("author", "title", "return author + title  ");
     </script>
   </head>
   <body></body>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      //1. Object Literal Syntax
+      var person = {
+        name: "Djokovic",
+        country: "Serbia",
+        noOfTitles: 23,
+        isWorldChampion: true,
+        getDetails: function () {
+          console.log(
+            "The player " +
+              this.name +
+              " has won " +
+              this.noOfTitles +
+              " titles !",
+          );
+        },
+      };
+      var player = person;
+      player.country = "SRB";
+      person.getDetails();
+    </script>
+  </head>
+  <body></body>
+</html>
