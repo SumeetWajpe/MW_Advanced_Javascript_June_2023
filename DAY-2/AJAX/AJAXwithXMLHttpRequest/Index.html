@@ -6,7 +6,9 @@
     <title>Document</title>
     <script src="GetData.js"></script>
     <script>
-      GetData();
+       GetData(function (postsJSON) {
+        console.log(postsJSON);
+      });
       console.log("Program Ended !");
     </script>
   </head>
