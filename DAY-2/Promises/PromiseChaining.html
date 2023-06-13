@@ -4,21 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="GetData.js"></script>
     <script>
-      let promise = new Promise(function (resolve, reject) {
-        setTimeout(() => resolve("Success"), 2000);
-      });
+      let promise = GetData("https://jsonplaceholder.typicode.com/posts/1");
 
       promise
-        .then(msg => {
-          console.log(msg);
-          throw new Error("Error !");
+        .then(postJSON => {
+          let post = JSON.parse(postJSON);
+          let userId = post.userId;
+          return GetData(
+            "https://jsonplaceholder.typicode.com/userss/" + userId,
+          );
         })
-        .then(
-          () => console.log("This would be printed !"),
-          err => console.log(err),
-        )
-        .then(() => console.log("Even this gets printed !"));
+        .then(userJSON => console.log(userJSON))
+        .then(() => console.log("Even this gets printed !"))
+        .catch(err => console.log(err));
     </script>
   </head>
   <body></body>
