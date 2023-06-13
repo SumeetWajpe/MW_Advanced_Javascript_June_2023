@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      let promise = new Promise(function (resolve, reject) {
+        setTimeout(() => resolve("Success"), 2000);
+      });
+
+      promise
+        .then(msg => console.log(msg))
+        .then(() => console.log("This would be printed !"))
+        .then(() => console.log("Even this gets printed !"));
+    </script>
+  </head>
+  <body></body>
+</html>
