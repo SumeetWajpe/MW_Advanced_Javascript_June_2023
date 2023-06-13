@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T09:12:02.783Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Z2gfLgPxLYS-pFFu2l7N" version="21.3.7" type="device">
+<mxfile host="app.diagrams.net" modified="2023-06-13T10:33:01.135Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="MN1S09Cdj-i7jp5n2IVB" version="21.3.7" type="device">
   <diagram name="Page-1" id="8CYgC2aIyBDxhhlNEpGZ">
-    <mxGraphModel dx="1355" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF2CC" math="0" shadow="0">
+    <mxGraphModel dx="1573" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF2CC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,6 +126,30 @@
         </mxCell>
         <mxCell id="mN3UMuQu9m_qZCOfFJfz-42" value=".... stream....&amp;nbsp;" style="html=1;whiteSpace=wrap;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="850" y="1010" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mN3UMuQu9m_qZCOfFJfz-43" value="Users.html" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mN3UMuQu9m_qZCOfFJfz-44" value="GetUsers.js" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mN3UMuQu9m_qZCOfFJfz-45" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1440" width="290" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mN3UMuQu9m_qZCOfFJfz-46" value="GetUsers()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="mN3UMuQu9m_qZCOfFJfz-45">
+          <mxGeometry y="30" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mN3UMuQu9m_qZCOfFJfz-47" value="Display (console) 10 users" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="mN3UMuQu9m_qZCOfFJfz-45">
+          <mxGeometry y="60" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mN3UMuQu9m_qZCOfFJfz-48" value="async await" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="mN3UMuQu9m_qZCOfFJfz-45">
+          <mxGeometry y="90" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mN3UMuQu9m_qZCOfFJfz-49" value="" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1440" width="460" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mN3UMuQu9m_qZCOfFJfz-50" value="GetUsers(){&lt;br&gt;fetch api -&amp;gt;&amp;nbsp;https://jsonplaceholder.typicode.com/users}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="mN3UMuQu9m_qZCOfFJfz-49">
+          <mxGeometry y="30" width="460" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
