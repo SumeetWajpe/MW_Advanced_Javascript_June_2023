@@ -10,8 +10,14 @@
       });
 
       promise
-        .then(msg => console.log(msg))
-        .then(() => console.log("This would be printed !"))
+        .then(msg => {
+          console.log(msg);
+          throw new Error("Error !");
+        })
+        .then(
+          () => console.log("This would be printed !"),
+          err => console.log(err),
+        )
         .then(() => console.log("Even this gets printed !"));
     </script>
   </head>
