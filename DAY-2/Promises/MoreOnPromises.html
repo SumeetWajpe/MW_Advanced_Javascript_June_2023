@@ -9,15 +9,19 @@
         setTimeout(() => resolve("Resolved after 2 seconds"), 2000);
       });
       let promiseTwo = new Promise(function (resolve, reject) {
-        setTimeout(() => resolve("Resolved after 1 second"), 1000);
+        setTimeout(() => reject("Rejected after 1 second"), 1000);
       });
 
       let promiseThree = new Promise(function (resolve, reject) {
         setTimeout(() => resolve("Resolves after 5 seconds"), 5000);
       });
 
-      Promise.all([promiseOne, promiseTwo, promiseThree])
-        .then(results => console.log(results))
+      //   Promise.all([promiseOne, promiseTwo, promiseThree])
+      //     .then(results => console.log(results))
+      //     .catch(err => console.log(err));
+
+      Promise.race([promiseOne, promiseTwo, promiseThree])
+        .then(result => console.log(result))
         .catch(err => console.log(err));
     </script>
   </head>
