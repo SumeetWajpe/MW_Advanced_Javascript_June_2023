@@ -36,13 +36,24 @@
 
       // Spread Operator
       // With Arrays
-      let cars = ["BMW", "AUDI", "Aston Martin"];
-      let moreCars = ["TATA", "MAHINDRA"];
-      let allCars = [...cars, ...moreCars, "Merc"];
+      // let cars = ["BMW", "AUDI", "Aston Martin"];
+      // let moreCars = ["TATA", "MAHINDRA"];
+      // let allCars = [...cars, ...moreCars, "Merc"];
 
-      // With Objects
-      let person = { name: "Andy Murray", nationality: "Scottish" };
-      let player = { age: 36, nationality: "British", ...person };
+      // // With Objects
+      // let person = { name: "Andy Murray", nationality: "Scottish" };
+      // let player = { age: 36, nationality: "British", ...person };
+
+      // Destructuring - Arrays & Objects
+      let cars = ["BMW", "AUDI", "Aston Martin"];
+      // let firstCar, secondCar;
+      // firstCar = cars[0];
+      // secondCar = cars[1];
+      // OR
+
+      // let [firstCar, secondCar] = cars;
+      // let [firstCar, ,secondCar] = cars; // skipping position - secondCar =  Aston Martin
+      let [firstCar, , , secondCar = "Merc"] = cars;
     </script>
   </head>
   <body></body>
