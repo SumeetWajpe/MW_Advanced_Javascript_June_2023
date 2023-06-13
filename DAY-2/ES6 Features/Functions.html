@@ -35,9 +35,19 @@
       //   });
 
       // OR
-      cars.forEach(car => console.log(car));
+      //   cars.forEach(car => console.log(car));
+      //   setTimeout(() => console.log("Printed after 2 seconds"), 2000);
 
-      setTimeout(() => console.log("Printed after 2 seconds"), 2000);
+      console.log("Program Started..");
+      function Emp() {
+        this.salary = 200000;
+        setTimeout(() => console.log(this.salary), 2000);
+      }
+      var emp = new Emp();
+      console.log("Program Ended..");
+      
+
+     
     </script>
   </head>
   <body></body>
