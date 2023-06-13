@@ -45,7 +45,7 @@
       // let player = { age: 36, nationality: "British", ...person };
 
       // Destructuring - Arrays & Objects
-      let cars = ["BMW", "AUDI", "Aston Martin"];
+      // let cars = ["BMW", "AUDI", "Aston Martin"];
       // let firstCar, secondCar;
       // firstCar = cars[0];
       // secondCar = cars[1];
@@ -53,7 +53,25 @@
 
       // let [firstCar, secondCar] = cars;
       // let [firstCar, ,secondCar] = cars; // skipping position - secondCar =  Aston Martin
-      let [firstCar, , , secondCar = "Merc"] = cars;
+      // let [firstCar, , , secondCar = "Merc"] = cars;
+
+      // With Objects
+      let person = {
+        fname: "Andy",
+        lname: "Murray",
+        nationality: "British",
+        stats: { rank: 44, grandslamswon: 3 },
+      };
+      // let lname, fname;
+      // fname = person.fname;
+      // lname = person.lname;
+      // OR
+      // let { fname, lname } = person;
+
+      let {
+        fname: firstname,
+        stats: { rank },
+      } = person;
     </script>
   </head>
   <body></body>
