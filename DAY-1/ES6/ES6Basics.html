@@ -56,22 +56,34 @@
       // let [firstCar, , , secondCar = "Merc"] = cars;
 
       // With Objects
-      let person = {
-        fname: "Andy",
-        lname: "Murray",
-        nationality: "British",
-        stats: { rank: 44, grandslamswon: 3 },
-      };
+      // let person = {
+      //   fname: "Andy",
+      //   lname: "Murray",
+      //   nationality: "British",
+      //   stats: { rank: 44, grandslamswon: 3 },
+      // };
       // let lname, fname;
       // fname = person.fname;
       // lname = person.lname;
       // OR
       // let { fname, lname } = person;
 
-      let {
-        fname: firstname,
-        stats: { rank },
-      } = person;
+      // let {
+      //   fname: firstname,
+      //   stats: { rank },
+      // } = person;
+
+      // Enhanced Object Literal
+      let fname = "Rafael";
+      let lname = "Nadal";
+      //let player = { fname: fname, lname: lname }; // Older
+      let player = { fname, lname };
+
+      function PrintPlayer({ fname, lname }) {
+        console.log(fname + " " + lname);
+      }
+
+      PrintPlayer(player);
     </script>
   </head>
   <body></body>
