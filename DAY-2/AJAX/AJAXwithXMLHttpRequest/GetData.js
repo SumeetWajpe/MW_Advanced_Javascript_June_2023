@@ -9,7 +9,9 @@ function GetData(callback) {
   xmlHttpReq.onreadystatechange = function () {
     if (xmlHttpReq.readyState == 4 && xmlHttpReq.status == 200) {
       //console.log(xmlHttpReq.responseText);
-      callback(xmlHttpReq.responseText);
+      callback(null, xmlHttpReq.responseText);
+    } else if (xmlHttpReq.readyState == 4 && xmlHttpReq.status !== 200) {
+      callback("Something went wrong !" + xmlHttpReq.status, null);
     }
   };
   xmlHttpReq.send(); // places the async call

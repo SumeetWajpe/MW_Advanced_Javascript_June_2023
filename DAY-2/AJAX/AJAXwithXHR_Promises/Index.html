@@ -6,10 +6,15 @@
     <title>Document</title>
     <script src="GetData.js"></script>
     <script>
-      GetData(function (err, postsJSON) {
-        if (err) console.log("Error : " + err);
-        else console.log(postsJSON);
-      });
+      let aPromise = GetData(); // returns a promise
+      aPromise.then(
+        function (msg) {
+          console.log(msg);
+        },
+        function (err) {
+          console.log(err);
+        },
+      );
       console.log("Program Ended !");
     </script>
   </head>
