@@ -42,17 +42,29 @@ function CreateNewCourseItem(course) {
   coursePrice.className = "card-text m-0";
 
   let courseRating = document.createElement("p");
-  courseRating.innerHTML = `<i class="fa-solid fa-star" style="color:orange"></i>`;
+  for (let index = 0; index < course.rating; index++) {
+    courseRating.innerHTML += `<i class="fa-solid fa-star" style="color:orange"></i>`;
+  }
   courseRating.className = "card-text m-0";
 
   let courseLikesBtn = document.createElement("button");
   courseLikesBtn.innerHTML = `<i class="fa-regular fa-thumbs-up"></i> ${course.likes}`;
   courseLikesBtn.className = "btn btn-primary";
+  courseLikesBtn.addEventListener("click", () => {
+    course.likes++;
+    courseLikesBtn.innerHTML = `<i class="fa-regular fa-thumbs-up"></i> ${course.likes}`;
+  });
 
-  newCourseCardBody.appendChild(courseTitle);
-  newCourseCardBody.appendChild(coursePrice);
+  let courseDeleteBtn = document.createElement("button");
+  courseDeleteBtn.className = "btn btn-danger m-1";
+  courseDeleteBtn.innerHTML = `<i class="fa-solid fa-trash"></i>`;
+
   newCourseCardBody.appendChild(courseRating);
+  newCourseCardBody.appendChild(courseTitle);
+
+  newCourseCardBody.appendChild(coursePrice);
   newCourseCardBody.appendChild(courseLikesBtn);
+  newCourseCardBody.appendChild(courseDeleteBtn);
 
   newCourseCard.appendChild(newCourseCardBody);
   listofcourses.appendChild(newCourseCard);
