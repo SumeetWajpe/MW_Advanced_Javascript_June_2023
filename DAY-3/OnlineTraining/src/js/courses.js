@@ -34,19 +34,19 @@ function CreateNewCourseItem(course) {
   newCourseCardBody.className = "card-body";
 
   let courseTitle = document.createElement("h5");
-  courseTitle.className = "card-title";
+  courseTitle.className = "card-title my-1";
   courseTitle.innerText = course.title;
 
   let coursePrice = document.createElement("p");
   coursePrice.innerText = "₹." + course.price;
-  coursePrice.className = "card-text";
+  coursePrice.className = "card-text m-0";
 
   let courseRating = document.createElement("p");
-  courseRating.innerText = course.rating;
-  courseRating.className = "card-text";
+  courseRating.innerHTML = `<i class="fa-solid fa-star" style="color:orange"></i>`;
+  courseRating.className = "card-text m-0";
 
   let courseLikesBtn = document.createElement("button");
-  courseLikesBtn.innerText = course.likes;
+  courseLikesBtn.innerHTML = `<i class="fa-regular fa-thumbs-up"></i> ${course.likes}`;
   courseLikesBtn.className = "btn btn-primary";
 
   newCourseCardBody.appendChild(courseTitle);
