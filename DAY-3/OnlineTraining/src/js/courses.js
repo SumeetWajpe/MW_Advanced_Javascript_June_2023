@@ -55,6 +55,8 @@ function CreateNewCourseItem(course) {
     courseLikesBtn.innerHTML = `<i class="fa-regular fa-thumbs-up"></i> ${course.likes}`;
   });
 
+  // removeChild(nodeToBeRemoved)
+
   let courseDeleteBtn = document.createElement("button");
   courseDeleteBtn.className = "btn btn-danger m-1";
   courseDeleteBtn.innerHTML = `<i class="fa-solid fa-trash"></i>`;
