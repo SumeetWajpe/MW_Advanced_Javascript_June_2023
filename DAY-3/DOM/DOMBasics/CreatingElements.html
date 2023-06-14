@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function AddElement() {
+        let newInput = document.createElement("input");
+        newInput.type = "text";
+        let container = document.getElementById("container");
+        container.appendChild(newInput);
+      }
+      function AddBeverage() {
+        let newLi = document.createElement("li");
+        newLi.innerText = "Cold Coffee";
+        let listofbeverages = document.getElementById("beverages");
+        listofbeverages.appendChild(newLi);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="container"></div>
+    <button onclick="AddElement()">Add new Element</button>
+    <hr />
+    <ul id="beverages">
+      <li>Tea</li>
+      <li>Coffee</li>
+    </ul>
+    <button onclick="AddBeverage()">Add new beverage</button>
+  </body>
+</html>
