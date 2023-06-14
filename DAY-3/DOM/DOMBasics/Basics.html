@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      //   window.addEventListener("DOMContentLoaded", function () {
+      //     let tDiv = document.getElementById("targetDiv");
+      //     tDiv.innerHTML = "<strong>Dynamic</strong>";
+      //   });
+
+      function ChangeInnerHTML() {
+        let tDiv = document.getElementById("targetDiv");
+        tDiv.innerHTML = "<strong>Dynamic</strong>";
+        tDiv.style.border = "2px solid blue";
+      }
+    </script>
+  </head>
+  <body>
+    <div id="targetDiv">Static</div>
+    <button onclick="ChangeInnerHTML()">Change Text !</button>
+  </body>
+</html>
