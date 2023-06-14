@@ -39,6 +39,30 @@
       "likes": 700,
       "rating": 4,
       "imageUrl": "https://miro.medium.com/max/2000/1*PCKC8Ufml-wvb9Vjj3aaWw.jpeg"
+    },
+    {
+      "id": 6,
+      "title": "CSS3",
+      "price": 7000,
+      "likes": 700,
+      "rating": 4,
+      "imageUrl": "https://bs-uploads.toptal.io/blackfish-uploads/uploaded_file/file/185789/image-1581552024454-3a5f9ecad40f39e372110b676dba5ac0.png"
+    },
+    {
+      "id": 7,
+      "title": "StencilJS",
+      "price": 6000,
+      "rating": 5,
+      "likes": 100,
+      "imageUrl": "https://stenciljs.com/stencil-og.png"
+    },
+    {
+      "id": 8,
+      "title": "AureliaJS",
+      "price": 6000,
+      "rating": 5,
+      "likes": 100,
+      "imageUrl": "https://www.valuecoders.com/blog/wp-content/uploads/2016/12/aurleiajs1.jpg"
     }
   ]
 }

@@ -21,11 +21,12 @@ function CreateNewCourseItem(course) {
   let listofcourses = document.getElementById("listofcourses");
 
   let newCourseCard = document.createElement("div");
-  newCourseCard.className = "card";
+  newCourseCard.className = "card m-1";
   newCourseCard.style.width = "15rem";
 
   let newCourseCardImage = document.createElement("img");
   newCourseCardImage.src = course.imageUrl;
+  newCourseCardImage.style.height = "150px";
 
   newCourseCardImage.className = "card-img-top";
   newCourseCard.appendChild(newCourseCardImage);
@@ -71,5 +72,7 @@ function CreateNewCourseItem(course) {
   newCourseCard.appendChild(newCourseCardBody);
   listofcourses.appendChild(newCourseCard);
 }
+
+
 
 window.addEventListener("DOMContentLoaded", fetchCourses);
