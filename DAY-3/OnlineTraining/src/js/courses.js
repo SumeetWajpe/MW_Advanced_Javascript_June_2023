@@ -12,12 +12,25 @@ async function fetchCourses() {
 }
 
 function DisplayCourses(courses) {
-  let listofcourses = document.getElementById("listofcourses");
   for (const course of courses) {
-    let newCourse = document.createElement("li");
-    newCourse.innerText = course.title;
-    listofcourses.appendChild(newCourse);
+    CreateNewCourseItem(course);
   }
+}
+
+function CreateNewCourseItem(course) {
+  let listofcourses = document.getElementById("listofcourses");
+
+  let newCourseCard = document.createElement("div");
+  newCourseCard.className = "card";
+  newCourseCard.style.width = "18rem";
+
+  let newCourseCardImage = document.createElement("img");
+  newCourseCardImage.src = course.imageUrl;
+
+  newCourseCardImage.className = "card-img-top";
+  newCourseCard.appendChild(newCourseCardImage);
+
+  listofcourses.appendChild(newCourseCard);
 }
 
 window.addEventListener("DOMContentLoaded", fetchCourses);
