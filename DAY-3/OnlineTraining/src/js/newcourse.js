@@ -1,5 +1,4 @@
 function AddNewCourse(e) {
-  e.preventDefault();
   let courseToBeadded = {
     id: parseInt(document.querySelector("#txtCourseId").value),
     title: document.querySelector("#txtCourseTitle").value,
@@ -18,7 +17,10 @@ function AddNewCourse(e) {
     .then(res => res.json())
     .then(newcourse => {
       // alert(`${newcourse.title} added successfully !`);
-      window.location.href =
-        "http://127.0.0.1:5500/DAY-3/OnlineTraining/src/html/Courses.html";
+      // window.location.href =
+      //   "http://127.0.0.1:5500/DAY-3/OnlineTraining/src/html/Courses.html";
+      let successMsg = document.querySelector(".success-msg");
+      successMsg.style.display = "block";
     });
+  e.preventDefault();
 }

@@ -8,3 +8,11 @@ header{
     background-color: rgb(244, 166, 58);
     padding: 10px;
 }
+.success-msg{
+    display: none;
+    position:absolute;
+    left:400px;
+    top:200px;
+    width: 100%;
+}
+
