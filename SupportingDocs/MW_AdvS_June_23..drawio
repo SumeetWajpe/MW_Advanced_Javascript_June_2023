@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T07:17:22.216Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ofqKnnX7o20_tr6C-MmC" version="21.3.8" type="device" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-15T09:26:09.747Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="TZbwNhPYRZeOfvBtu1Ny" version="21.3.8" type="device" pages="2">
   <diagram name="DAY-2-OOJS-Promises-AJAX-Fetch" id="8CYgC2aIyBDxhhlNEpGZ">
     <mxGraphModel dx="1450" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF2CC" math="0" shadow="0">
       <root>
@@ -297,6 +297,33 @@
         </mxCell>
         <mxCell id="M5R-NREoHUV0NVvq6gF0-42" value="Screen Reader" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="40" y="2590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="M5R-NREoHUV0NVvq6gF0-44" target="M5R-NREoHUV0NVvq6gF0-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="M5R-NREoHUV0NVvq6gF0-44" target="M5R-NREoHUV0NVvq6gF0-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-44" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;image=https://images.g2crowd.com/uploads/product/image/social_landscape/social_landscape_f0b606abb6d19089febc9faeeba5bc05/nodejs-development-services.png;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="3150" width="228.57" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-45" value="Execution environment / Runtime for Javascript" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="-525" y="3110" width="475" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-46" value="Tools" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;verticalAlign=top;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="3330" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-48" value="Server side web apps" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;verticalAlign=top;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-79.995" y="3350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-50" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;image=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/V8_JavaScript_engine_logo_2.svg/640px-V8_JavaScript_engine_logo_2.svg.png;" vertex="1" parent="1">
+          <mxGeometry x="-315.71000000000004" y="3280" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-51" value="Built on top of Google&#39;s v8 engine" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="-275" y="3285" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-52" value="Run the app file -&amp;gt; node app.js" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="3140" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
