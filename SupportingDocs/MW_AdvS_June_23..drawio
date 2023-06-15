@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T04:43:48.765Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="BBrKf6VElM4SA0NHWI-J" version="21.3.8" type="device" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-15T06:17:45.688Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4Ucv6GZjUza0N_oUulam" version="21.3.8" type="device" pages="2">
   <diagram name="DAY-2-OOJS-Promises-AJAX-Fetch" id="8CYgC2aIyBDxhhlNEpGZ">
     <mxGraphModel dx="1450" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF2CC" math="0" shadow="0">
       <root>
@@ -155,7 +155,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="wKO_p9uF8E-rg0QcdwFQ" name="DAY-4">
-    <mxGraphModel dx="1675" dy="151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF2CC" math="0" shadow="0">
+    <mxGraphModel dx="1800" dy="230" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF2CC" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -194,6 +194,48 @@
         </mxCell>
         <mxCell id="M5R-NREoHUV0NVvq6gF0-12" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-400" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-13" value="Grid Colmns" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="910" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-14" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;image=https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/01/specificity-calculationbase_rhrovi.png?w=570&amp;ssl=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="760" width="520" height="316" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-15" value="Calculating CSS Specificity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="640" y="720" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-16" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;image=https://i0.wp.com/css-tricks.com/wp-content/uploads/2021/01/cssspecificity-calc-1_kqzhog.png?w=570&amp;ssl=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1180" width="520" height="316" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-17" value="Example" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="790" y="1140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-18" value="&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 1.5rem; max-width: 700px; font-family: Blanco, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 19.968px; text-align: start;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;ul style=&quot;box-sizing: border-box; margin: 0px 0px 1.5rem 1.5rem; padding: 0px; font-family: Blanco, system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, Roboto, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;; font-size: 19.968px; text-align: start;&quot;&gt;&lt;li style=&quot;box-sizing: border-box; max-width: 700px; margin: 0px 0px 5px; line-height: 1.6;&quot;&gt;If the element has inline styling, that automatically1&amp;nbsp;wins (1,0,0,0 points)&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; max-width: 700px; margin: 0px 0px 5px; line-height: 1.6;&quot;&gt;For each ID value, apply 0,1,0,0 points&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; max-width: 700px; margin: 0px 0px 5px; line-height: 1.6;&quot;&gt;For each class value (or pseudo-class or attribute selector), apply 0,0,1,0 points&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; max-width: 700px; margin: 0px 0px 5px; line-height: 1.6;&quot;&gt;For each element reference, apply 0,0,0,1 point&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1510" width="710" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" edge="1" parent="1" source="M5R-NREoHUV0NVvq6gF0-19" target="M5R-NREoHUV0NVvq6gF0-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-19" value="Position" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="1338" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-20" value="Values" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1278" width="570" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-21" value="static (default) : left top right bottom - no effect" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
+          <mxGeometry y="30" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-22" value="relative : offset position relative to itself" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
+          <mxGeometry y="60" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-23" value="absolute:&amp;nbsp; the element comes out of normal control flow 2. browser does not respect the space of the element in normal control flow (as if the element does not exist)" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
+          <mxGeometry y="90" width="570" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-24" value="fixed" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
+          <mxGeometry y="170" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-25" value="sticky" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
+          <mxGeometry y="200" width="570" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

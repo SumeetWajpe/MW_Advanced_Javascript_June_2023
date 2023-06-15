@@ -11,24 +11,26 @@
         background-color: lightblue;
       }
       /* Class level Selector */
-      /* .txtStyle {
-        border: 2px solid blue;
-        background-color: lightblue;
-      } */
+      .txtStyle {
+        border: 2px solid red;
+      }
       /*Id level selector*/
-      /* #first {
-        border: 2px solid blue;
-        background-color: lightblue;
-      } */
+      #first {
+        border: 2px solid black;
+      }
     </style>
   </head>
   <body>
-    <input type="text" id="first" />
+    <input
+      type="text"
+      class="txtStyle"
+      id="first"
+      style="border: 5px dashed blue"
+    />
     <input type="text" />
     <input type="text" />
     <input type="text" />
     <input type="text" />
     <input type="text" />
-    <input type="button" value="Button" />
   </body>
 </html>
