@@ -1,0 +1,11 @@
+{
+  "name": "webpackandbabel",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.87.0"
+  }
+}
