@@ -1,12 +1,12 @@
-function AddNewCourse() {
+function AddNewCourse(e) {
+  e.preventDefault();
   let courseToBeadded = {
-    id: 8,
-    title: "AureliaJS",
-    price: 6000,
-    rating: 5,
-    likes: 100,
-    imageUrl:
-      "https://www.valuecoders.com/blog/wp-content/uploads/2016/12/aurleiajs1.jpg",
+    id: parseInt(document.querySelector("#txtCourseId").value),
+    title: document.querySelector("#txtCourseTitle").value,
+    price: parseInt(document.querySelector("#txtCoursePrice").value),
+    rating: parseInt(document.querySelector("#txtCourseRating").value),
+    likes: parseInt(document.querySelector("#txtCourseLikes").value),
+    imageUrl: document.querySelector("#txtCourseImageUrl").value,
   };
   fetch("http://localhost:3000/courses", {
     method: "POST",
