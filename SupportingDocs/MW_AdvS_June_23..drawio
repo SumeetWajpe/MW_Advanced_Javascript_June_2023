@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T06:17:45.688Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="4Ucv6GZjUza0N_oUulam" version="21.3.8" type="device" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-15T06:39:42.731Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="AP9qwOp5__ofQogsPBxn" version="21.3.8" type="device" pages="2">
   <diagram name="DAY-2-OOJS-Promises-AJAX-Fetch" id="8CYgC2aIyBDxhhlNEpGZ">
     <mxGraphModel dx="1450" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF2CC" math="0" shadow="0">
       <root>
@@ -217,25 +217,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="M5R-NREoHUV0NVvq6gF0-19" value="Position" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="1338" width="120" height="60" as="geometry" />
+          <mxGeometry x="-410" y="1338" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="M5R-NREoHUV0NVvq6gF0-20" value="Values" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="1278" width="570" height="230" as="geometry" />
+          <mxGeometry x="-230" y="1280" width="570" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="M5R-NREoHUV0NVvq6gF0-21" value="static (default) : left top right bottom - no effect" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-21" value="static (default) : left top right bottom z-index - no effect" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
           <mxGeometry y="30" width="570" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M5R-NREoHUV0NVvq6gF0-22" value="relative : offset position relative to itself" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
           <mxGeometry y="60" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="M5R-NREoHUV0NVvq6gF0-23" value="absolute:&amp;nbsp; the element comes out of normal control flow 2. browser does not respect the space of the element in normal control flow (as if the element does not exist)" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
-          <mxGeometry y="90" width="570" height="80" as="geometry" />
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-23" value="absolute:&amp;nbsp; the element comes out of normal control flow 2. browser does not respect the space of the element in normal control flow (as if the element does not exist) 3. ltrb are calculated wrt document(window)" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
+          <mxGeometry y="90" width="570" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="M5R-NREoHUV0NVvq6gF0-24" value="fixed" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
-          <mxGeometry y="170" width="570" height="30" as="geometry" />
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-24" value="fixed : also like absolute (ltrb from window) &amp;amp; it is fixed" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
+          <mxGeometry y="210" width="570" height="30" as="geometry" />
         </mxCell>
         <mxCell id="M5R-NREoHUV0NVvq6gF0-25" value="sticky" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
-          <mxGeometry y="200" width="570" height="30" as="geometry" />
+          <mxGeometry y="240" width="570" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
