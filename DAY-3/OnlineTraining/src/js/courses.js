@@ -1,7 +1,7 @@
 async function fetchCourses() {
   try {
     let courses = null;
-    let res = await fetch("http://localhost:3000/courses");
+    let res = await fetch("http://localhost:3500/courses");
     if (res.ok) {
       courses = await res.json();
       DisplayCourses(courses);

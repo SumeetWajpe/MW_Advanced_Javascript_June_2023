@@ -1,6 +1,7 @@
 import express from "express";
 // const express = require("express");
 import { courses } from "./data.js";
+import cors from "cors";
 const app = express();
 const port = 3500;
 
@@ -12,7 +13,7 @@ const port = 3500;
 //   ];
 //   res.json(products);
 // });
-
+app.use(cors());
 app.get("/courses", (req, res) => {
   res.json(courses);
 });
