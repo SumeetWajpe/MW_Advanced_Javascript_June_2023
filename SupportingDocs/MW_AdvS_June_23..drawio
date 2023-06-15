@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-15T06:39:42.731Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="AP9qwOp5__ofQogsPBxn" version="21.3.8" type="device" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-15T06:44:04.436Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hPFrXgEBaumSDEueuI0B" version="21.3.8" type="device" pages="2">
   <diagram name="DAY-2-OOJS-Promises-AJAX-Fetch" id="8CYgC2aIyBDxhhlNEpGZ">
     <mxGraphModel dx="1450" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF2CC" math="0" shadow="0">
       <root>
@@ -234,7 +234,7 @@
         <mxCell id="M5R-NREoHUV0NVvq6gF0-24" value="fixed : also like absolute (ltrb from window) &amp;amp; it is fixed" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
           <mxGeometry y="210" width="570" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="M5R-NREoHUV0NVvq6gF0-25" value="sticky" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
+        <mxCell id="M5R-NREoHUV0NVvq6gF0-25" value="sticky: relative + fixed" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=20;fontFamily=Architects Daughter;" vertex="1" parent="M5R-NREoHUV0NVvq6gF0-20">
           <mxGeometry y="240" width="570" height="30" as="geometry" />
         </mxCell>
       </root>
