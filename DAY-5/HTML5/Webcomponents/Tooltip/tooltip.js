@@ -2,8 +2,9 @@ class Tooltip extends HTMLElement {
   constructor() {
     super();
     this.tooltip = null;
+    this.tooltiptext = "Dummy Tooltip !";
   }
-
+  // fired when this element gets attached to DOM !
   connectedCallback() {
     let tooltipIcon = document.createElement("span");
     tooltipIcon.innerHTML = "(?)";
@@ -11,12 +12,17 @@ class Tooltip extends HTMLElement {
     tooltipIcon.addEventListener("mouseleave", () => this.hideTooltip());
 
     this.style.position = "relative";
+
+    if (this.hasAttribute("title")) {
+      this.tooltiptext = this.getAttribute("title");
+    }
+
     this.appendChild(tooltipIcon);
   }
 
   showTooltip() {
     this.tooltip = document.createElement("div");
-    this.tooltip.innerText = "Dummy Tooltip !";
+    this.tooltip.innerText = this.tooltiptext;
     this.tooltip.style.backgroundColor = "black";
     this.tooltip.style.color = "white";
     this.tooltip.style.border = "2px solid grey";
