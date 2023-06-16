@@ -1,4 +1,9 @@
 onmessage = function (msgFromMainThread) {
+  //   console.log(window); !accessible
+  //   console.log(document); !accessible
+  //   console.log(XMLHttpRequest); // accessible
+  console.log(this);
+
   console.log(msgFromMainThread.data);
   let arr = [];
   for (let index = 0; index < 10000; index++) {
