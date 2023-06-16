@@ -1,0 +1,12 @@
+{
+  "name": "usingsass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sasscompile": "sass sass/styles.scss css/styles.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
