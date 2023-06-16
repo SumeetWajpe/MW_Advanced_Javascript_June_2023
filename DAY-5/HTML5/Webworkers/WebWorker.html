@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function HeavyLifting() {
+        let worker = new Worker("worker.js");
+        worker.postMessage("Hello from main thread !");
+        worker.onmessage = function (msgFromWorker) {
+          console.log(msgFromWorker.data);
+        };
+      }
+
+      function ClickHandler() {
+        console.log("U clicked !");
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="HeavyLifting()">Start Heavy Lifting</button>
+    <button onclick="ClickHandler()">Click Me !</button>
+  </body>
+</html>
