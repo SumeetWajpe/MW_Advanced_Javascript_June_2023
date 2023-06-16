@@ -1,0 +1,11 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: rgb(255, 230, 0);
+}
+
+.border-style {
+  border: 2px solid rgb(255, 230, 0);
+  background-color: lightyellow;
+}
+
+/*# sourceMappingURL=summer-theme.css.map */
