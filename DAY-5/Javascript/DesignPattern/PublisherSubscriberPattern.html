@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      class Webinar {
+        participants = [];
+        subscribe(theParticipant) {
+          this.participants.push(theParticipant);
+        }
+        unsubscribe(theParticipant) {
+          this.participants = this.participants.filter(
+            p => p.name != theParticipant.name,
+          );
+        }
+
+        execute() {
+          for (const participant of this.participants) {
+            participant.Handler();
+          }
+        }
+      }
+
+      class Participant {
+        name = "";
+        constructor(name) {
+          this.name = name;
+        }
+
+        Handler() {
+          console.log(`${this.name} got notification !`);
+        }
+      }
+
+      let firstParticipant = new Participant("John");
+      let secondParticipant = new Participant("Tim");
+      let thirdParticipant = new Participant("Kim");
+      let jsWebinar = new Webinar();
+      jsWebinar.subscribe(firstParticipant);
+      jsWebinar.subscribe(secondParticipant);
+      jsWebinar.subscribe(thirdParticipant);
+      jsWebinar.unsubscribe(firstParticipant);
+      jsWebinar.execute();
+    </script>
+  </head>
+  <body></body>
+</html>

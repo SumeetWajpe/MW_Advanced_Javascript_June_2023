@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      let Singleton = (function () {
+        let instance = null;
+        function CreateInstance() {
+          return { name: "Mathworks", location: "Bengaluru" };
+        }
+
+        function GetInstance() {
+          if (!instance) {
+            instance = CreateInstance();
+          }
+          return instance;
+        }
+
+        return { GetInstance };
+      })();
+
+      let c1 = Singleton.GetInstance();
+      c1.name = "Math Works";
+      let c2 = Singleton.GetInstance();
+    </script>
+  </head>
+  <body></body>
+</html>

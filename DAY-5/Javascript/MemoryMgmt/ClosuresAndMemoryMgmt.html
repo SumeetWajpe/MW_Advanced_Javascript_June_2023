@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      //   function Outer() {
+      //     let name = "Sachin";
+      //     return function () {
+      //       console.log(name);
+      //     };
+      //   }
+
+      //   let Inner = Outer();
+      //   Inner();
+
+      // Named Functions + destructuring
+
+      function Outer() {
+        let player = { name: "Sachin" };
+        Inner(player);
+      }
+
+      function Inner({ name }) {
+        console.log(name);
+      }
+      Outer();
+    </script>
+  </head>
+  <body></body>
+</html>
