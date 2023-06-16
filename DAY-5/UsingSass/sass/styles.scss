@@ -1,0 +1,11 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: #e80d0d;
+
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+}
+
+.border-style{
+    border: 2px solid $primary-color;
+}
