@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      var largeArray = [];
+      var isRunning;
+
+      function GrowHandler() {
+        isRunning = true;
+        GrowInSize();
+      }
+
+      function GrowInSize() {
+        largeArray.push(new Array(20000).fill("*"));
+        if (isRunning) {
+          setTimeout(() => GrowInSize(), 2000);
+        }
+      }
+      function StopHandler() {
+        isRunning = false;
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="GrowHandler()">Grow In Size !</button>
+    <button onclick="StopHandler()">Stop Handler !</button>
+  </body>
+</html>
